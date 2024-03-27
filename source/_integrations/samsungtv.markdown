@@ -29,7 +29,7 @@ The `samsungtv` platform allows you to control a [Samsung Smart TV](https://www.
 
 If the integration knows the MAC address of the TV from discovery, it will attempt to wake it using wake on LAN when calling turn on. Wake on LAN must be enabled on the TV for this to work. If the TV is connected to a smart strip or requires a more complex turn-on process, a `turn_on` action can be provided that will take precedence over the built-in wake on LAN functionality.
 
-You can create an automation from the user interface, from the device create a new automation and select the  **Device is requested to turn on** automation.
+You can create an automation from the user interface, from the device create a new automation and select the  **Device is requested to turn on** trigger.
 Automations can also be created using an automation action:
 
 ```yaml
